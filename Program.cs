@@ -39,11 +39,14 @@ namespace OutDotnetApp
             }
 
         }
+
+        
+
         static void Main(string[] args)
         {
             DisplayGreeting();
 
-            var name = PromptForString("What is your name boy? ");
+            var name = PromptForString("What is your name? ");
 
             int salary = PromptForInteger("What is your yearly salary (in dollars)? ");
 
